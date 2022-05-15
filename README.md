@@ -32,5 +32,10 @@ Pentru a traduce titlul cărții găsite se va folosi dropdown-ul pentru a selec
 ![image](https://user-images.githubusercontent.com/72127941/168465253-633b68c9-2aec-49bc-b2e9-a124ed20b18b.png)  
 Obținerea titlului tradus se face printr-o metodă ***POST*** (următoarea imagine) cu textul original către API-ul de la LibreTranslate.
 ![image](https://user-images.githubusercontent.com/72127941/168465607-2865ee2b-36fb-4acb-b020-900e75459d32.png)
-![image](https://user-images.githubusercontent.com/72127941/168465662-48bfe6c7-464f-4ae0-a754-e2ea1b208e15.png)
+![image](https://user-images.githubusercontent.com/72127941/168465662-48bfe6c7-464f-4ae0-a754-e2ea1b208e15.png)  
+
+## Referințe
+https://www.techtarget.com/searchapparchitecture/definition/RESTful-API  
+https://developers.google.com/books/docs/v1/reference/volumes/get  
+https://libretranslate.de/  
 
