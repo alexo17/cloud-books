@@ -10,7 +10,8 @@ class Books extends Component {
         this.state = {
             books: [],
             searchField: '',
-            selectedLanguage: ''
+            sourceLanguage: 'en',
+            targetLanguage: ''
         }
     }
 
@@ -55,8 +56,8 @@ class Books extends Component {
 
             const params = new URLSearchParams();
             params.append('q', this.state.books[0].volumeInfo.title);
-            params.append('source', 'en');
-            params.append('target', this.state.selectedLanguage);
+            params.append('source', this.state.sourceLanguage);
+            params.append('target', this.state.targetLanguage);
 
             axios
                 .post('https://libretranslate.de/translate', params, {
@@ -77,7 +78,10 @@ class Books extends Component {
     }
 
     setLanguage = (e) => {
-        this.setState({ selectedLanguage: e.target.value })
+        this.setState({
+            sourceLanguage: this.state.targetLanguage,
+            targetLanguage: e.target.value 
+        })
     }
 
     render() {
