@@ -2,7 +2,7 @@
 
 ## Introducere
 
-Bună ziua, numele meu este Alexandru Oprea și sunt student în cadrul programului de masterat SIMPRE. În cele ce urmează voi descrie funcționalitățile proiectului la materia Cloud Computing. Aplicația se poate regăsi pe [https://pacific-spire-64096.herokuapp.com/](https://pacific-spire-64096.herokuapp.com/). 
+Bună ziua, numele meu este Alexandru Oprea și sunt student în cadrul programului de masterat SIMPRE. În cele ce urmează voi descrie funcționalitățile proiectului la materia Cloud Computing. Aplicația se poate regăsi pe [https://pacific-spire-64096.herokuapp.com/](https://pacific-spire-64096.herokuapp.com/), iar o demonstrație a acesteia pe [https://youtu.be/VKKJq2EnBdc](https://youtu.be/VKKJq2EnBdc). 
 
 ## Descriere problemă
 
