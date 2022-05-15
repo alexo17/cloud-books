@@ -24,12 +24,12 @@ LibreTranslate este un API Open-Source folosit pentru traducerea de text. Acest 
 ## Flux de date
 
 La pornirea aplicației, utilizatorul este întâmpinat de o bară de căutare și de un dropdown cu câteva limbi suportate de API-ul de traducere.
-![image](https://user-images.githubusercontent.com/72127941/168464792-65a3e184-d01f-4bcb-b891-db37f4ce8820.png)
+![image](https://user-images.githubusercontent.com/72127941/168464792-65a3e184-d01f-4bcb-b891-db37f4ce8820.png)  
 Introducerea textului în câmpul de căutare și apăsarea butonului ***Search*** va determina lansarea unei metode ***GET*** către Google Books API (a doua imagine de jos), metodă ce va întoarce cărțile filtrate după titlul căutat.
 ![image](https://user-images.githubusercontent.com/72127941/168465040-7fdfde5a-2267-45c1-b9ec-c2953d8306f2.png)
-![image](https://user-images.githubusercontent.com/72127941/168465129-2596f000-1b74-40bd-9a02-83009fa06ff7.png)
-Pentru a traduce titlul cărții găsite se va folosi dropdown-ul pentru a selecta limba dorită și se va apăsa pe ***Translate***.
-![image](https://user-images.githubusercontent.com/72127941/168465253-633b68c9-2aec-49bc-b2e9-a124ed20b18b.png)
+![image](https://user-images.githubusercontent.com/72127941/168465129-2596f000-1b74-40bd-9a02-83009fa06ff7.png)  
+Pentru a traduce titlul cărții găsite se va folosi dropdown-ul pentru a selecta limba dorită și se va apăsa pe ***Translate***.  
+![image](https://user-images.githubusercontent.com/72127941/168465253-633b68c9-2aec-49bc-b2e9-a124ed20b18b.png)  
 Obținerea titlului tradus se face printr-o metodă ***POST*** (următoarea imagine) cu textul original către API-ul de la LibreTranslate.
 ![image](https://user-images.githubusercontent.com/72127941/168465607-2865ee2b-36fb-4acb-b020-900e75459d32.png)
 ![image](https://user-images.githubusercontent.com/72127941/168465662-48bfe6c7-464f-4ae0-a754-e2ea1b208e15.png)
